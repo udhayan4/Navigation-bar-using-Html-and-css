@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    color: orangered;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
+.nav {
+    background-color: black;
+    height: 60px;
+}
+
+.nav a {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    float: right;
+    font-weight: bold;
+    font-display: center;
+}
+
+.nav h1 {
+    background-color: black;
+    width: 100%;
+    color: chartreuse;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.5s;
+    background: linear-gradient(rgba (255, 255, 255, 1)20%, trasparent 80%);
+}
+
+.nav a:hover {
+    background-color: white;
+    color: red;
+    width: 50px;
+}
