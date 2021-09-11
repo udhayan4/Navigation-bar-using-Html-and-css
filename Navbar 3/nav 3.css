@@ -1,0 +1,36 @@
+* {
+    margin: 0PX;
+    padding: 0px;
+    font-family: serif;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    justify-content: center;
+}
+
+.navbar {
+    font-family: serif;
+    float: right;
+    height: 100px;
+    width: 100%;
+    background-color: deeppink;
+    color: white;
+    justify-content: space-between;
+    float: right;
+}
+
+.navbar a {
+    color: white;
+    width: 20%;
+    height: 70px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: darkgreen;
+    color: white;
+}
