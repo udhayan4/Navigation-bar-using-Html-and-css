@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: darkblue;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 20px 16px;
+    font-family: serif;
+    width: 100px;
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+    justify-content: left;
+    height: 5s0px;
+}
