@@ -1,0 +1,25 @@
+* {
+    background-image: url('taj mahal.jpg');
+    image-resolution: 70%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: red;
+    color: darkgreen;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: -5px;
+}
+
+.nav a {
+    padding: 25px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover {
+    background-color: antiquewhite;
+    color: red;
+}
