@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+
+body {
+    background: url(moon17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+}
+
+ul li {
+    justify-content: center;
+    padding: 10px 10px;
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-style: dashed;
+}
