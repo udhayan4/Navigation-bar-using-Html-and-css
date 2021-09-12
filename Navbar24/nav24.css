@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item {
+    padding: 20px 20px;
+    margin: 20px 20px;
+    color: orangered;
+    font-size: 30px;
+    font-weight: bolder;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav {
+    padding: 20px 20px;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.item:hover {
+    background-color: black;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
