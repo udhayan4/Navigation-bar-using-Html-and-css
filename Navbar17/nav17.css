@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    color: darkgoldenrod;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: violet;
+    height: 70px;
+    width: 100%;
+    margin: 35px;
+}
+
+.nav li a {
+    padding: 20px 20px;
+}
+
+.nav li a:hover {
+    background-color: blue;
+    border-radius: 50px;
+    color: whitesmoke;
+}
