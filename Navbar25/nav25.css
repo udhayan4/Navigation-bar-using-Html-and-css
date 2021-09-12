@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item {
+    padding: 20px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 20px;
+    color: black;
+    border-right: 5px solid;
+    border-left: 5px solid;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    margin: 20px 20px;
+}
+
+.nav {
+    padding: 30px 30px;
+    margin: 20px 20px;
+    background-color: brown;
+    height: 60px;
+}
+
+.item:hover {
+    background-color: blue;
+    color: chartreuse;
+}
