@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: darkblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid blue;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 40px;
+    border-top-color: aqua;
+    width: 100%;
+}
+
+.item {
+    padding: 30px 30px;
+    margin: 25px 25px;
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item:hover {
+    background-color: chartreuse;
+    color: black;
+    border: 1px solid;
+    border-style: double;
+    border-radius: 40px;
+}
