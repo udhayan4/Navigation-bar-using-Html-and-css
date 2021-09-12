@@ -1,0 +1,25 @@
+* {
+    margin: 0PX;
+    padding: 0px;
+    background-size: cover;
+    background-image: url('space.jpg');
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.5s;
+    background: linear-gradient(rgba (255, 255, 255, 1)20%, trasparent 80%);
+    -webkit-background-clip: text;
+}
+
+h1:hover {
+    letter-spacing: 10px;
+}
