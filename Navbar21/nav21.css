@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.item {
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 20px;
+    margin: 30px 30px;
+    font-size: larger;
+    font-weight: bolder;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 1000px;
+    border-style: hidden;
+    border: 5px solid yellow;
+    transition: 2s;
+    z-index: 0;
+    margin: 0 10px;
+    position: relative;
+}
+
+.item:hover {
+    top: 0;
+    background-color: red;
+    color: white;
+    left: 0;
+    border-style: double;
+    position: relative;
+    transition: 2s;
+}
