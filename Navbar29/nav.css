@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(odd) {
+    background: gray;
+}
+
+section::before {
+    content: attr(data-text);
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
